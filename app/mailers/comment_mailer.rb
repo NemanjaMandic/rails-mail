@@ -7,7 +7,7 @@ class CommentMailer < ApplicationMailer
         @content = content
         
         mail(to: post_user.email,
-             from: "services@gmail.com",
+             from: "services@mydomain.com",
              subject: "comment Created"
              
              )

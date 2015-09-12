@@ -10,13 +10,12 @@ module Workspace
     
     ActionMailer::Base.smtp_settings = {
       
-      :address        => 'smtp.gmail.com',
-      :domain         => 'mail.google.com',
-      :port           => 2587,
-      :user_name      => "mymailerapp@gmail.com",
-      :password       => "weakpass",
-      :authentication => 'login',
-      :enable_starttls_auto => true
+      :port           => '2587',
+      :address        => 'smtp.mandrillapp.com',
+      :user_name      => "nemanjans84@gmail.com",
+      :password       => "5iJ0-C8RdAx5ZV_Sz-isuA",
+      :authentication => :plain
+    
      }
 
     
